@@ -1,0 +1,55 @@
+@import "/style/common.css";
+
+.loginContainer {
+  width: auto;
+  background-color: #ffffff;
+}
+
+.login-form {
+  width: 424px;
+  border: 1px solid var(--bs-gray-300);
+  box-shadow: 0 4px 24px 4px hsl(0deg 0% 40% / 5%);
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-title {
+  color: var(--bs-gray-800);
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.marketit-logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login-id {
+  margin-bottom: 20px;
+}
+
+.findPassword {
+  text-align: center;
+  color: var(--bs-gray-600);
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.findPassword > p > span {
+  color: var(--bs-blue);
+  text-decoration: underline;
+}
+.login {
+  width: 100%;
+  height: 48px;
+}
+
+.custom-popup {
+  background-color: rgba(0, 0, 0, 0.6);
+}

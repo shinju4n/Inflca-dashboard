@@ -1,0 +1,231 @@
+.marketit-container{
+padding: 40px;
+    width: 1300px;
+    left: 17px;
+    top: 159px;
+    background: #FFFFFF;
+}
+
+.page-title{
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.page-sub-title{
+    font-size: 16px;
+    font-weight: 700px;
+    margin-bottom: 12px;
+    line-height: 19.2px
+}
+
+.manager-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.manager{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 10%;
+    height: 96px;   
+    background-color: rgb(250, 250, 250);
+}
+
+.sales-wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 12px 10.5px;
+    font-weight: 700px;
+}
+
+.sales{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(157, 157, 157);
+    margin-bottom: 7px;
+}
+
+.name-choose {
+    width: 100%;
+}
+
+.company-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.company{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 10%;
+    height: 96px;   
+    background-color: rgb(250, 250, 250);
+}
+
+.company-status{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 12px 10.5px;
+    font-weight: 700px;
+}
+
+.status-wrapper{
+    width: 20%;
+}
+
+.status{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(157, 157, 157);
+    margin-bottom: 7px;
+}
+
+.name-wrapper{
+    width: 20%;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(157, 157, 157);
+    margin-bottom: 7px;
+}
+
+.company-name-wrapper{
+    width: 40%;
+}
+
+.company-name{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(157, 157, 157);
+    margin-bottom: 7px;
+}
+
+.company-number-wrapper{
+    width: 20%;
+}
+
+.company-number{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(157, 157, 157);
+    margin-bottom: 7px;
+}
+
+.button-wrap{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 20px 0 42px;
+}
+
+.reset-btn{
+    background-color:transparent;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 44px;
+    padding: 13px 16px;
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #919191;
+    cursor: pointer;
+}
+
+.search-btn{
+    background-color: #5578F0;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 44px;
+    padding: 13px 16px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    padding-bottom: 10px;
+}
+
+.company-list{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.add-button-wrap{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0 20px;
+}
+
+.new-group-button{
+    background-color:transparent;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 44px;
+    padding: 13px 16px;
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #919191;
+    cursor: pointer;
+}
+
+.new-company-button{
+    background-color: #5578F0;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 44px;
+    padding: 13px 16px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-top: 1px solid rgb(232, 232, 232);
+}

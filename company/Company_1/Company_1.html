@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Company_1.css" />
+    <title>INFLCA 백오피스</title>
+  </head>
+  <body>
+    <div class="marketit-container">
+      <div class="page-title">제휴사 현황</div>
+      <div class="search-wrapper">
+        <div class="page-sub-title">검색</div>
+        <div class="manager-wrapper">
+          <div class="manager">관리</div>
+          <div class="sales-wrapper">
+            <div class="sales">영업담당자</div>
+            <div class="name-choose">
+              <select name="manager-name">
+                <option value="none">== 이름 선택 ==</option>
+                <option value="who">제이든 산초</option>
+                <option value="are">라파엘 바란</option>
+                <option value="you">카세미루</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="company-wrapper">
+          <div class="company">제휴사</div>
+          <div class="company-status">
+            <div class="status-wrapper">
+              <div class="status">제휴사 상태</div>
+              <div>
+                <select name="manager-name">
+                  <option value="none">== 이름 선택 ==</option>
+                  <option value="who">제이든 산초</option>
+                  <option value="are">라파엘 바란</option>
+                  <option value="you">카세미루</option>
+                </select>
+              </div>
+            </div>
+            <div class="name-wrapper">
+              <div class="name">사업자명</div>
+              <div>
+                <select name="manager-name">
+                  <option value="none">== 이름 선택 ==</option>
+                  <option value="who">제이든 산초</option>
+                  <option value="are">라파엘 바란</option>
+                  <option value="you">카세미루</option>
+                </select>
+              </div>
+            </div>
+            <div class="company-name-wrapper">
+              <div class="company-name">제휴사명</div>
+              <span>
+                <select name="manager-name">
+                  <option value="none">== 이름 선택 ==</option>
+                  <option value="who">제이든 산초</option>
+                  <option value="are">라파엘 바란</option>
+                  <option value="you">카세미루</option>
+                </select>
+              </span>
+              <span>
+                <select name="manager-name">
+                  <option value="none">== 이름 선택 ==</option>
+                  <option value="who">제이든 산초</option>
+                  <option value="are">라파엘 바란</option>
+                  <option value="you">카세미루</option>
+                </select>
+              </span>
+            </div>
+            <div class="company-number-wrapper">
+              <div class="company-number">제휴사 번호</div>
+              <div>
+                <select name="manager-name">
+                  <option value="none">== 이름 선택 ==</option>
+                  <option value="who">제이든 산초</option>
+                  <option value="are">라파엘 바란</option>
+                  <option value="you">카세미루</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-wrap">
+          <button class="reset-btn">초기화</button>
+          <button class="search-btn">검색</button>
+        </div>
+      </div>
+      <div>
+        <div class="list">
+          <div class="company-list">제휴사 리스트 (100)</div>
+          <div>
+            <select name="list">
+              <option value="who">30</option>
+              <option value="are" selected>50</option>
+              <option value="you">100</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <div class="add-button-wrap">
+            <button class="new-group-button">새 그룹 제휴사 추가</button>
+            <button class="new-company-button">새 제휴사 추가</button>
+          </div>
+        </div>
+        <table>
+          <tr>
+            <th>제휴사명</th>
+            <th>유형</th>
+            <th>제휴사 상태</th>
+            <th>사업자 정보</th>
+            <th>연결된 계정</th>
+            <th>영업 담당자</th>
+          </tr>
+          <tr>
+            <td>엠마의 1018-1 제휴사</td>
+            <td>싱글</td>
+            <td>등록</td>
+            <td>엠마의 1018-1 사업자</td>
+            <td>emma_1018_1</td>
+            <td>eugene</td>
+          </tr>
+          <tr>
+            <td>
+              <a class="text-link" href="/contract/130/285" target="_blank"
+                >130 <i class="marketit-icon_link_text"></i
+              ></a>
+            </td>
+            <td class="text-start">
+              wade 테스트1 <span style="color: var(--gray-6)">(285)</span>
+            </td>
+            <td><p class="mb-0">싱글</p></td>
+            <td class="text-start">주식회사 정직한<br />000-00-00000</td>
+            <td>wade</td>
+            <td>-</td>
+            <td>
+              <div
+                style="
+                  width: 8px;
+                  height: 8px;
+                  border-radius: 50%;
+                  display: inline-block;
+                  margin-right: 8px;
+                  box-sizing: border-box;
+                  background-color: var(--success);
+                  border: none;
+                "
+              ></div>
+              계약 이행 중
+            </td>
+            <td>
+              2022-10-18 <span style="color: var(--gray-6)">16:15:18</span>
+            </td>
+            <td>미등록</td>
+            <td>
+              <a href="/contract/130/285" target="_blank"
+                ><button type="button" class="btn btn-outline-secondary">
+                  계약 상세 정보
+                </button></a
+              >
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

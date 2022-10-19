@@ -96,47 +96,53 @@
       </div>
       <!-- search -->
     </div>
+    <!-- marketit-container -->
+    <div class="app-container container-xxl">
+      <div class="card-header align-items-center py-5 gap-2 gap-md-5">
+        <h6 class="page-sub-title">승인대기리스트(50)</h6>
+      </div>
+      <select class="form-select">
+        <option value="30">30</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+        <ul
+          class="nav nav-stretch nav-line-tabs fw-bold fs-6 p-0 p-lg-10 flex-nowrap flex-grow-1"
+        >
+          <li class="nav-item mx-lg-1">
+            <a
+              class="nav-link py-3 py-lg-6 active text-active-primary"
+              href="#"
+              data-bs-toggle="tab"
+              data-bs-target="#kt_app_header_menu_pages_pages"
+              >승인대기</a
+            >
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a
+              class="nav-link py-3 py-lg-6 text-active-primary"
+              href="#"
+              data-bs-toggle="tab"
+              data-bs-target="#kt_app_header_menu_pages_account"
+              >승인</a
+            >
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a
+              class="nav-link py-3 py-lg-6 text-active-primary"
+              href="#"
+              data-bs-toggle="tab"
+              data-bs-target="#kt_app_header_menu_pages_authentication"
+              >승인거절</a
+            >
+          </li>
+        </ul>
+        <!-- NAV -->
+        <div>
+        <div class="partner-accounts-select">
 
-    <ul
-      class="nav nav-stretch nav-line-tabs fw-bold fs-6 p-0 p-lg-10 flex-nowrap flex-grow-1"
-    >
-      <li class="nav-item mx-lg-1">
-        <a
-          class="nav-link py-3 py-lg-6 active text-active-primary"
-          href="#"
-          data-bs-toggle="tab"
-          data-bs-target="#kt_app_header_menu_pages_pages"
-          >승인대기</a
-        >
-      </li>
-      <li class="nav-item mx-lg-1">
-        <a
-          class="nav-link py-3 py-lg-6 text-active-primary"
-          href="#"
-          data-bs-toggle="tab"
-          data-bs-target="#kt_app_header_menu_pages_account"
-          >승인</a
-        >
-      </li>
-      <li class="nav-item mx-lg-1">
-        <a
-          class="nav-link py-3 py-lg-6 text-active-primary"
-          href="#"
-          data-bs-toggle="tab"
-          data-bs-target="#kt_app_header_menu_pages_authentication"
-          >승인거절</a
-        >
-      </li>
-    </ul>
-    <!-- NAV -->
-    <div class="partner-accounts-select">
-      <h6 class="page-sub-title">승인대기리스트(50)</h6>
-    </div>
-    <select class="form-select">
-      <option value="30">30</option>
-      <option value="50">50</option>
-      <option value="100">100</option>
-    </select>
+
+      </div>
     <div class="card-body pt-0">
       <!--begin::Table-->
       <table
@@ -173,6 +179,6 @@
       <!--end::Table-->
     </div>
     <!--end::Card body-->
-    <!-- marketit-container -->
+  </div>
   </body>
 </html>

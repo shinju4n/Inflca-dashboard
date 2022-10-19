@@ -1,0 +1,821 @@
+#contractDetailContainer h2 {
+  font-weight: bolder;
+}
+
+#contractDetailContainer .tab-content {
+  padding: 3% 0;
+}
+
+.partner-setting-sub-title {
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.partner-setting-sub-title .form-select {
+  width: 100px;
+}
+
+.partner-setting-range .form-control {
+  width: 120px;
+}
+
+.partner-basic-info-wrap .basic-form.col {
+  display: flex;
+  align-items: center;
+}
+
+.partner-basic-info-wrap .basic-info-null {
+  margin-bottom: 0;
+  color: var(--gray-6);
+}
+
+.basic-form.col .modal-basic-info-null {
+  padding-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+.partner-basic-info-wrap .form-label span {
+  margin-left: 3px;
+  color: var(--red-6);
+}
+
+.partner-basic-info-wrap .row {
+  margin: 0;
+  padding: 0;
+}
+
+.partner-basic-info-wrap .required-information span:first-child {
+  color: var(--red-6);
+  margin-right: 0.25rem;
+  font-size: 12px;
+}
+
+.partner-basic-info-wrap .required-information span {
+  color: var(--gray-6);
+  font-size: 12px;
+}
+
+.partner-basic-info-wrap .form-switch {
+  display: flex;
+  align-items: flex-end;
+  margin: 2rem 0.1rem;
+}
+
+.partner-basic-info-wrap .form-switch label {
+  margin-left: 0.5rem;
+}
+
+.partner-basic-info-wrap .form-switch input {
+  width: 48px;
+}
+
+.partner-basic-info-wrap .role-wrapper {
+  margin-left: 13px;
+  padding: 6px 12px;
+  background: var(--gray-1);
+  border: 1px solid #dcdcdc;
+  border-radius: 50px;
+}
+
+.partner-accounts-search {
+  margin-bottom: 40px;
+}
+
+.partner-type-select {
+  width: 120px !important;
+  margin-right: 0.5rem;
+}
+
+.label-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label-form > div {
+  margin-right: 0.5rem;
+}
+
+.label-form > div > .form-label {
+  color: var(--gray-6);
+}
+
+.partner-accounts-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.partner-accounts-select .form-select {
+  width: 80px;
+}
+
+.subscription-information-wrap .col,
+.account-details-wrap .col {
+  display: flex;
+  align-items: center;
+}
+
+.information-section {
+  margin-bottom: 40px;
+}
+
+.information-section .form-check .form-check-input {
+  float: none;
+}
+
+.information-section .form-switch .form-check-input {
+  width: 3em;
+}
+
+.information-section .page-sub-title {
+  margin-bottom: 12px;
+}
+
+.account-check .form-check-input,
+.account-checkbox .form-check-input {
+  margin-top: 0.1rem;
+}
+
+.subscription-information-wrap .information-section .alert {
+  padding: 27px;
+  color: var(--error);
+  background: rgba(255, 226, 224, 0.3);
+  border-color: var(--error);
+  border-radius: 5px;
+}
+
+.subscription-information-wrap .information-section .alert > p {
+  margin-bottom: 0;
+}
+
+.subscription-information-wrap .website-infomation {
+  flex-wrap: wrap;
+  padding-top: 12px;
+}
+
+.subscription-information-wrap .website-infomation > div {
+  width: 47%;
+  margin-right: 8px;
+}
+
+.subscription-information-wrap .website-infomation .btn {
+  margin-top: 26px;
+}
+
+.subscription-information-wrap .website-infomation .website-list {
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+
+.account-details-wrap .information-section .disconnect-btn {
+  padding: 12px 0px;
+  border-top: 1px solid var(--gray-3);
+}
+
+.account-details-wrap .information-section .price {
+  color: var(--pb-6);
+  font-weight: 700;
+}
+
+.no-contracts {
+  padding: 40px 0;
+  border-top: 1px solid var(--gray-3);
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.no-contracts h3 {
+  color: var(--gray-8);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.no-contracts button {
+  margin-top: 25px;
+}
+
+.partner-basic-info-wrap .no-accounts {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-top: 1px solid var(--gray-3);
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.partner-basic-info-wrap .no-accounts h3 {
+  color: var(--gray-8);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.partner-basic-info-wrap .no-accounts h4 {
+  color: var(--gray-8);
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.partner-basic-info-wrap .no-accounts h4 span {
+  color: var(--red-6);
+}
+
+.partner-basic-info-wrap .no-accounts h5 {
+  font-size: 14px;
+  color: var(--gray-6);
+  margin-top: 4px;
+}
+
+.partner-basic-info-wrap .no-accounts button {
+  width: 80px;
+  height: 36px;
+  margin-top: 16px;
+}
+
+.partner-basic-info-wrap .no-account-search-list {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-top: 1px solid var(--gray-3);
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.account-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.account-count .form-select {
+  width: 100px;
+}
+
+.account-count .form-label span {
+  margin-left: 3px;
+  color: var(--red-6);
+}
+
+.custom-switch input {
+  width: 48px !important;
+}
+
+.no-account-search-list i,
+.no-account-list i,
+.no-accounts-i {
+  padding: 0.5rem;
+  color: var(--pb-6);
+  font-size: 72px !important;
+  background-color: var(--pb-1);
+  border-radius: 50%;
+}
+
+.no-account-search-list {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid var(--gray-3);
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.no-account-search-list h3 {
+  font-size: 14px;
+}
+
+.instruction {
+  margin-top: 20px;
+  padding: 24px;
+  background: #f6f7fb;
+  border: 1px solid var(--gray-4);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.instruction h5 {
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 0.8rem;
+}
+
+.instruction ul {
+  margin-bottom: 0;
+}
+
+.instruction ul li {
+  font-size: 14px;
+  color: var(--gray-8);
+}
+
+.account-link-modal .form-label span {
+  margin-left: 3px;
+  color: var(--red-6);
+}
+
+.partner-basic-info-wrap .upload-wrapper {
+  height: 100%;
+  display: flex;
+}
+
+.partner-basic-info-wrap .upload-wrapper div {
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.partner-basic-info-wrap .website-wrapper {
+  display: block;
+  padding: 12px;
+}
+
+.partner-basic-info-wrap .remove-url {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  padding-right: 0;
+}
+
+.duplicate-brands-wrapper {
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.duplicate-brands-wrapper p {
+  color: var(--pb-6);
+  margin-bottom: 7px;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.duplicate-brands-wrapper p:last-child {
+  margin-bottom: 0px;
+}
+
+.duplicate-brands-wrapper i {
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+
+.partner-basic-info-wrap .input-file-button,
+.account-link-modal .input-file-button {
+  width: 80px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid var(--gray-5);
+  border-radius: 5px;
+  color: var(--gray-6);
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 15px;
+}
+
+.account-link-modal .input-file-button {
+  margin-left: 0;
+}
+
+.deposit input {
+  border-right: none !important;
+}
+
+.deposit input:focus {
+  border-right: 1px solid #007aff !important;
+}
+
+#deposit {
+  background: #fff;
+  border: 1px solid var(--gray-5);
+  border-left: none;
+}
+
+.partner-autocomplete {
+  width: 290px;
+}
+
+.partners-table tr td {
+  text-align: left;
+}
+
+.grouped-partners-table tr td {
+  padding: 0 1rem !important;
+  text-align: left;
+}
+
+.grouped-partners-table tr td:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.grouped-modal .modal-header {
+  padding: 1.5rem 0;
+  width: 1230px;
+}
+
+.grouped-modal .modal-content {
+  align-items: center;
+}
+
+.modal-xl {
+  max-width: 1280px !important;
+}
+
+.partnerNames .partner-select .css-1s2u09g-control,
+.partnerNames .partner-select .css-1pahdxg-control,
+.partnerNames .partner-select .css-1insrsq-control {
+  width: 120px;
+  margin-right: 0.5rem;
+}
+
+.partnerNames
+  .partner-select
+  .css-1insrsq-control
+  .css-1hb7zxy-IndicatorsContainer
+  span {
+  display: none;
+}
+
+.deposit input[type='number']::-webkit-inner-spin-button,
+.deposit input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.partners-table td span {
+  color: var(--gray-6);
+}
+
+.brand-info-wrapper {
+  position: relative;
+}
+
+.brand-info-wrapper .block-brand-info-input {
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.brand-info-wrapper .block-brand-info-input .no-account-box {
+  position: absolute;
+  width: 339px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(115, 115, 115, 0.25);
+  border-radius: 5px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
+
+.brand-info-wrapper .block-brand-info-input .no-account-box p {
+  margin: 0;
+}
+
+.brand-info-wrapper .block-brand-info-input .no-account-box p:first-child {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--pb-6);
+}
+
+.brand-info-wrapper .block-brand-info-input .no-account-box p:last-child {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.contract-info-wrapper {
+  position: relative;
+}
+
+.contract-info-wrapper .block-brand-info-input {
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.contract-info-wrapper .block-brand-info-input .no-account-box {
+  position: absolute;
+  width: 339px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(115, 115, 115, 0.25);
+  border-radius: 5px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
+
+.contract-info-wrapper .block-brand-info-input .no-account-box p {
+  margin: 0;
+}
+
+.contract-info-wrapper .block-brand-info-input .no-account-box p:first-child {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--pb-6);
+}
+
+.contract-info-wrapper .block-brand-info-input .no-account-box p:last-child {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.partner-field span span,
+.partner-history td:last-child span {
+  border: 1px solid var(--gray-4);
+  border-radius: 50px;
+  padding: 0.25rem 0.75rem;
+  background: var(--gray-1);
+  margin-left: 0.5rem;
+}
+
+.partner-history td:last-child span {
+  margin-bottom: 0.5rem;
+}
+
+.partner-history td:last-child span span {
+  color: var(--gray-6);
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin-left: 0;
+}
+
+.partner-form form {
+  margin-bottom: 1rem;
+}
+
+.partner-form form:last-child {
+  margin-bottom: 0;
+}
+
+.partner-basic-info-wrap .card-display-section {
+  display: block;
+}
+
+.partner-basic-info-wrap .card-display-section .credit-card-wrapper {
+  padding: 12px;
+  width: 638px;
+  border: 1px solid var(--gray-4);
+  border-radius: 5px;
+  display: flex !important;
+}
+
+.partner-basic-info-wrap
+  .card-display-section
+  .credit-card-wrapper
+  div:first-child {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.partner-basic-info-wrap .card-display-section .credit-card-wrapper div p {
+  margin: 0;
+}
+
+.partner-basic-info-wrap
+  .card-display-section
+  .credit-card-wrapper
+  div
+  p:first-child {
+  font-weight: 700;
+}
+
+.partner-basic-info-wrap
+  .card-display-section
+  .credit-card-wrapper
+  div
+  p:last-child {
+  color: var(--gray-6);
+  margin-top: 4px;
+}
+
+.partner-basic-info-wrap .card-display-section .credit-card-wrapper div p span {
+  color: var(--gray-8);
+  margin-right: 4px;
+}
+
+.partner-basic-info-wrap
+  .card-display-section
+  .credit-card-wrapper:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.information-section .card {
+  width: 638px;
+  margin-bottom: 1rem;
+}
+
+.information-section .card:last-child {
+  margin-bottom: 0;
+}
+
+.information-section .card-body {
+  display: flex;
+  align-items: center;
+}
+
+.modal-card {
+  background: var(--gray-1) !important;
+  padding: 1rem;
+}
+
+.modal-card p {
+  font-weight: bold;
+}
+
+.modal-card ol {
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.modal-card span {
+  margin-left: 2rem;
+  color: var(--gray-6);
+}
+
+.account-modal {
+  max-width: 1620px !important;
+}
+
+.account-modal .modal-header {
+  padding: 1.75rem 1.75rem;
+}
+
+.rejection-modal {
+  max-width: 516px !important;
+}
+
+.select {
+  position: relative;
+}
+
+.custom-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid var(--gray-5);
+  border-radius: 5px;
+  color: var(--gray-6);
+}
+
+.custom-select > div {
+  display: flex;
+  align-items: center;
+}
+
+.custom-select > div > div,
+.select-list > div > div {
+  list-style: none;
+}
+
+.custom-selected {
+  z-index: 1;
+  padding: 8px;
+  position: absolute;
+  top: 95px;
+  left: 6px;
+  background: var(--gray-0);
+  box-shadow: 0px 1px 7px rgba(115, 115, 115, 0.25);
+  border-radius: 5px;
+  color: var(--gray-6);
+}
+
+.select-list > div {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.select-list > div span {
+  color: var(--gray-8);
+}
+
+.select-list :hover {
+  background: var(--pb-1);
+  color: var(--pb-6);
+}
+
+.select-list :hover span {
+  color: var(--pb-6);
+}
+
+.detail-modal {
+  top: 20%;
+}
+
+.contract-state i {
+  font-size: 20px;
+  color: var(--gray-3);
+  margin: 0 0.25rem;
+}
+
+.contract-state span:first-of-type {
+  font-weight: bold;
+  color: var(--gray-8);
+}
+
+.contract-state span {
+  color: var(--gray-6);
+}
+
+.miniDeposit input {
+  border-right: none !important;
+}
+
+.miniDeposit input:focus {
+  border-right: 1px solid #007aff !important;
+}
+
+#miniDeposit {
+  background: #fff;
+  border: 1px solid var(--gray-5);
+  border-left: none;
+  color: var(--gray-6);
+}
+
+.no-business-search-list {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-top: 1px solid var(--gray-3);
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.no-business-search-list i {
+  padding: 0.5rem;
+  color: var(--pb-6);
+  font-size: 72px !important;
+  background-color: var(--pb-1);
+  border-radius: 50%;
+}
+
+.no-business-search-list p i {
+  padding: 0;
+  font-size: 12px !important;
+  background-color: transparent;
+}
+
+.deposit-charge-request .basic-form {
+  display: flex;
+  align-items: center;
+}
+
+.deposit-payment-request-modal .basic-form {
+  display: flex;
+  align-items: center;
+}
+
+.deposit-charge-request-wrapper {
+  position: relative;
+}
+
+.deposit-charge-request-wrapper .block-business-info-input {
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.deposit-charge-request-wrapper .block-business-info-input .no-business-box {
+  position: absolute;
+  width: 380px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(115, 115, 115, 0.25);
+  border-radius: 5px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  padding: 24px 0;
+}
+
+.business-payment-detail .basic-form {
+  display: flex;
+  align-items: center;
+}
+
+.business-payment-detail .basic-form {
+  display: flex;
+  align-items: center;
+}
+
+.detail-modal .basic-form {
+  display: flex;
+  align-items: center;
+}
+
+.detail-modal {
+  max-width: 1000px !important;
+  top: 0;
+}

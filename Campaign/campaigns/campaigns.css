@@ -1,0 +1,19 @@
+@import '/style/common.css';
+@import '/style/app.css';
+
+.marketit-container {
+  padding: 40px;
+}
+
+.custom-form-label {
+  color: var(--bs-gray-600);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.select {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid var(--gray-5);
+  border-radius: 5px;
+}

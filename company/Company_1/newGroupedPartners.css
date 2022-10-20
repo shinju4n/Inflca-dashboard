@@ -1,0 +1,21 @@
+@import "../../style/reset.css";
+@import "../../style/app.css";
+@import "../../style/common.css";
+
+
+.marketit-container{
+    padding: 40px;
+}
+
+.page-title{
+    margin-bottom: 40px;
+}
+
+.acount-info{
+    margin-bottom: 40px
+}
+
+.acount-linking{
+    border: 1px solid;
+}
+ 

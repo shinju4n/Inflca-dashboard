@@ -5,7 +5,7 @@
 body {
   position: relative;
   min-height: 100vh;
-  font-family: "Pretendard";
+  font-family: 'Pretendard';
 }
 
 .customPagination .page-link {
@@ -21,7 +21,6 @@ body {
   border-bottom: 1px solid var(--gray-3);
 }
 
-.basic-label,
 .basic-form {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -119,8 +118,8 @@ body {
   margin-bottom: 0;
 }
 
-.form-check-input[type="checkbox"],
-.form-check-input[type="radio"] {
+.form-check-input[type='checkbox'],
+.form-check-input[type='radio'] {
   width: 1.5rem;
   height: 1.5rem;
   margin-right: 0.5rem;
@@ -186,7 +185,6 @@ body {
 .form-warning {
   border-color: #f9a825 !important;
 }
-
 .form-invalid .css-1s2u09g-control {
   border-color: #dc3545 !important;
 }
@@ -349,7 +347,7 @@ body {
   width: 0px !important;
 }
 
-input[type="datetime-local" i] {
+input[type='datetime-local' i] {
   color: var(--gray-6);
 }
 

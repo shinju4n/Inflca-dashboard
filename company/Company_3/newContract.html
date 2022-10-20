@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="newContract.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="marketit-container">
+      <h5 class="page-title">새 계약 추가</h5>
+      <h6 class="page-sub-title">관리</h6>
+      <form>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >영업 담당자<i class="marketit-icon_required"></i
+          ></label>
+          <div class="d-block basic-form col">
+            <input class="select w-100" placeholder="이름 입력 또는 선택" />
+          </div>
+          <label class="basic-label form-label col-form-label col-1"
+            >운영 담당자<i class="marketit-icon_required"></i
+          ></label>
+          <div class="d-block basic-form col">
+            <input class="select w-100" placeholder="이름 입력 또는 선택" />
+          </div>
+        </div>
+
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >특이사항<i class="marketit-icon_required"></i
+          ></label>
+          <div class="basic-form col">
+            <textarea
+              placeholder="계약 특이사항, 캠페인 운영에 참고해야 할 사항 입력"
+              class="form-control"
+              style="height: 80px"
+            ></textarea>
+          </div>
+        </div>
+      </form>
+
+      <div class="d-flex justify-content-between mt-12">
+        <div class="d-flex align-items-center mb-3">
+          <h6 class="page-sub-title m-0 me-2">연결된 제휴사</h6>
+        </div>
+        <div class="required-information">
+          <i class="marketit-icon_required"></i><span>필수 정보</span>
+        </div>
+      </div>
+
+      <div class="account-search-list text-center">
+        <i class="marketit-icon_search_list"></i>
+        <h5 class="mt-4 mb-2" style="font-weight: bold">
+          연결된 제휴사가 없습니다.
+        </h5>
+        <p>
+          <span style="color: var(--red-6)">*</span> 계약을 진행할 제휴사를
+          연결해 주세요.
+        </p>
+        <div class="mt-3">
+          <button type="button" class="btn btn-outline-primary btn-outline">
+            제휴사 연결
+          </button>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between mt-12">
+        <h6 class="page-sub-title">계약 정보</h6>
+        <div class="required-information">
+          <i class="marketit-icon_required"></i><span>필수 정보</span>
+        </div>
+      </div>
+
+      <form class="">
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >계약 번호</label
+          >
+          <div class="basic-form col">
+            <p class="basic-info-null">저장 이후 생성됩니다.</p>
+          </div>
+        </div>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >등록일</label
+          >
+          <div class="basic-form col">
+            <p class="basic-info-null">첫 번째 저장 시각이 자동 입력됩니다.</p>
+          </div>
+          <label class="basic-label form-label col-form-label col-1"
+            >종료일<i
+              class="marketit-icon_information"
+              style="font-size: 20px; vertical-align: middle"
+            ></i
+          ></label>
+          <div class="basic-form col">
+            <div
+              class="w-100 d-flex align-items-center justify-content-between"
+            >
+              <p class="basic-info-null">
+                계약 종료 처리된 시각이 자동 입력됩니다.
+              </p>
+              <button
+                disabled=""
+                type="button"
+                class="btn btn-outline-secondary"
+                style="padding: 0px 2.5rem"
+              >
+                계약 종료
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >상태<i
+              class="marketit-icon_information"
+              style="font-size: 20px; vertical-align: middle"
+            ></i
+          ></label>
+          <div class="basic-form col">
+            <div class="contract-state d-flex align-items-center">
+              <span>계약 등록</span> <i class="marketit-icon_arrow_right"></i
+              ><span>캠페인 진행</span> <i class="marketit-icon_arrow_right"></i
+              ><span>계약 종료 대기</span>
+              <i class="marketit-icon_arrow_right"></i><span>계약 종료</span>
+            </div>
+          </div>
+        </div>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >유입 경로</label
+          >
+          <div class="basic-form col">
+            <div class="w-100 css-b62m3t-container">
+              <span
+                id="react-select-192-live-region"
+                class="css-7pg0cj-a11yText"
+              ></span
+              ><span
+                aria-live="polite"
+                aria-atomic="false"
+                aria-relevant="additions text"
+                class="css-7pg0cj-a11yText"
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >계약서</label
+          >
+          <div class="basic-form col">
+            <div>
+              <div class="d-flex ms-3 mb-2">
+                <div>
+                  <div class="form-check">
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      checked=""
+                    /><label title="" class="form-check-label">파일 등록</label>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="w-100 ms-4 form-check">
+                    <input type="radio" class="form-check-input" /><label
+                      title=""
+                      class="form-check-label"
+                      >기존 계약 연결</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="mt-2">
+                <div class="d-flex">
+                  <div class="d-flex" style="align-items: flex-end">
+                    <label class="input-file-button" for="input-file-popup"
+                      >파일 등록</label
+                    ><input
+                      id="input-file-popup"
+                      type="file"
+                      class="d-none"
+                      accept=".pdf, .jpg, .jpeg, .png, .docx,"
+                    /><span style="color: var(--gray-6)"
+                      >• pdf, docx, jpeg(jpg), png 형식 파일<br />• 개당 10MB
+                      이하, 파일 수 제한 없음</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >계약서<br />파일 확인</label
+          >
+          <div class="basic-form col">
+            <div class="ms-3 col">
+              <div class="mb-2 form-check">
+                <input type="checkbox" class="form-check-input" /><label
+                  title=""
+                  class="form-check-label"
+                  >계약서 파일 확인</label
+                >
+              </div>
+              <span style="color: var(--gray-6)"
+                >• 경영지원실에서 계약서 날인 여부 확인을 위해 사용하는
+                항목입니다.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >희망 혜택 제공<br />시작일<i class="marketit-icon_required"></i
+          ></label>
+          <div class="basic-form col">
+            <div class="w-100">
+              <label class="w-100 mt-4 form-label"></label
+              ><input type="date" class="form-control" value="" />
+            </div>
+          </div>
+          <label class="basic-label form-label col-form-label col-1"
+            >희망 혜택 제공<br />종료일<i class="marketit-icon_required"></i
+          ></label>
+          <div class="basic-form col">
+            <div class="w-100">
+              <label class="w-100 form-label"
+                ><div class="w-100 row">
+                  <div class="d-flex">
+                    <div>
+                      <div class="me-4 form-check">
+                        <input
+                          name="endedAt"
+                          type="radio"
+                          class="form-check-input"
+                          checked=""
+                        /><label title="" class="form-check-label"
+                          >혜택 제공 시작 후</label
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <div class="form-check">
+                        <input
+                          name="endedAt"
+                          type="radio"
+                          class="form-check-input"
+                        /><label title="" class="form-check-label"
+                          >지정일</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div></label
+              >
+              <div class="d-flex">
+                <div>
+                  <select class="select" style="margin-right: 10px">
+                    <option value="365">365</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <input
+                    disabled=""
+                    type="date"
+                    class="form-control"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

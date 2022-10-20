@@ -1,0 +1,8 @@
+@import "../../style/app.css";
+@import "../../style/common.css";
+@import "../../style/reset.css";
+
+
+.marketit-container{
+    padding: 40px;
+}

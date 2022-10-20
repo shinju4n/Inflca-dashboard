@@ -51,7 +51,7 @@
               <div class="col">
                 <label class="form-label">사업자명 검색</label>
                 <input
-                  placeholder="이름 입력 또는 선택"
+                  placeholder="사업자명 입력"
                   type="text"
                   class="form-control"
                   value
@@ -59,24 +59,22 @@
               </div>
               <div class="col">
                 <label class="form-label">제휴사명</label>
-                <div class="d-flex">
-                  <div class="partnersNames">
-                    <input
-                      placeholder="전체"
-                      type="text"
-                      class="form-control"
-                      value
-                    />
-                    <input
-                      placeholder="제휴사명 입력 또는 선택"
-                      type="text"
-                      class="form-control"
-                      value
-                    />
-                  </div>
+                <div class="partnersNames d-flex">
+                  <input
+                    placeholder="전체"
+                    type="text"
+                    class="form-control css-1s2u09g-control"
+                    value
+                  />
+                  <input
+                    placeholder="제휴사명 입력 또는 선택"
+                    type="text"
+                    class="form-control partner-autocomplete"
+                    value
+                  />
                 </div>
               </div>
-              <div>
+              <div class="col">
                 <label class="form-label">제휴사 번호</label>
                 <input
                   placeholder="2개 이상 입력 시 ,로 구분"
@@ -131,31 +129,43 @@
               </thead>
               <tbody>
                 <tr>
-                  <td class="text-start">john123</td>
+                  <td class="text-start" style="padding-left: 0.5rem">
+                    john123
+                  </td>
                   <td class="text-start">제휴사</td>
                   <td class="text-start">테스트</td>
                   <td class="text-start">-</td>
                   <td>
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary btn-outline"
+                    <a
+                      href="http://127.0.0.1:5500/company/Company_2/subscriptionInformation.html"
                     >
-                      가입정보확인
-                    </button>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-outline"
+                      >
+                        가입정보확인
+                      </button>
+                    </a>
                   </td>
                 </tr>
                 <tr>
-                  <td class="text-start">john123</td>
+                  <td class="text-start" style="padding-left: 0.5rem">
+                    john123
+                  </td>
                   <td class="text-start">제휴사</td>
                   <td class="text-start">테스트</td>
                   <td class="text-start">-</td>
                   <td>
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary btn-outline"
+                    <a
+                      href="http://127.0.0.1:5500/company/Company_2/subscriptionInformation.html"
                     >
-                      가입정보확인
-                    </button>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-outline"
+                      >
+                        가입정보확인
+                      </button>
+                    </a>
                   </td>
                 </tr>
               </tbody>

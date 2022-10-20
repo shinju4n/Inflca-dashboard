@@ -1,10 +1,8 @@
-@import "../../style/reset.css";
 @import "../../style/app.css";
 @import "../../style/common.css";
 
 .marketit-container{
     padding: 40px;
-    width: 1300px;
     left: 17px;
     top: 159px;
     background: #FFFFFF;
@@ -241,5 +239,5 @@ table{
 }
 
 .input-choose{
-    width: 140%;
+    width: 210%;
 }

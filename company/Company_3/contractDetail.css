@@ -1,0 +1,46 @@
+@import '/style/common.css';
+@import '/style/app.css';
+@import '/style/reset.css';
+
+.marketit-container {
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.select {
+  padding: 10px 10px;
+  border: 1px solid var(--gray-5);
+  border-radius: 5px;
+  height: 100%;
+}
+
+.basic-form {
+  display: flex;
+  align-items: center;
+}
+
+.account-search-list {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-top: 1px solid var(--gray-3);
+  border-bottom: 1px solid var(--gray-3);
+}
+
+.basic-info-null {
+  display: flex;
+  align-items: center;
+  color: var(--gray-6);
+}
+
+.input-file-button {
+  width: 80px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid var(--gray-5);
+  border-radius: 5px;
+  color: var(--gray-6);
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 15px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Partners_1.css"/>
+    <title>INFLCA 백오피스</title>
+  </head>
+  <body>
+    <div class="marketit-container without-whitespace">
+      <div class="page-title">제휴사 현황</div>
+      <div class="search-wrapper">
+        <div class="page-sub-title">검색</div>
+        <div class="manager-wrapper">
+          <div class="manager">관리</div>
+          <div class="sales-wrapper">
+            <div class="sales">영업담당자</div>
+            <div class="name-choose">
+              <input placeholder="이름 입력 또는 선택" type="text" class="form-control" value="">
+            </div>
+          </div>
+        </div>
+        <div class="company-wrapper">
+          <div class="company">제휴사</div>
+          <div class="company-status">
+            <div class="status-wrapper">
+              <div class="status">제휴사 상태</div>
+              <div>
+                <input placeholder="전체 상태" type="text" class="form-control all-status" value="">
+              </div>
+            </div>
+            <div class="name-wrapper">
+              <div class="name">사업자명</div>
+              <div>
+                <input placeholder="사업자명 입력" type="text" class="form-control input-name" value="">
+              </div>
+            </div>
+            <div class="company-name-wrapper">
+              <div class="company-name">제휴사명</div>
+              <div class="inputorchoose">
+                <div>
+                  <input placeholder="전체 유형" type="text" class="form-control all-cate" value="">
+                </div>
+                <div>
+                  <input placeholder="제휴사명 입력 또는 선택" type="text" class="form-control input-choose" value="">
+                </div>
+              </div>
+            </div>
+            <div class="company-number-wrapper">
+              <div class="company-number">제휴사 번호</div>
+              <div>
+                <input placeholder="2개 이상 입력 시 ,로 구분" type="text" class="form-control" value="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-wrap">
+          <button class="reset-btn">초기화</button>
+          <button class="search-btn">검색</button>
+        </div>
+      </div>
+      <div>
+        <div class="list">
+          <div class="company-list">제휴사 리스트 (2)</div>
+          <div>
+            <select class="form-select">
+              <option value="30">30</option>
+              <option value="50" selected>50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <div class="add-button-wrap">
+            <button class="me-2 btn btn-outline-secondary btn-outline">새 그룹 제휴사 추가</button>
+            <button class="new-company-button">새 제휴사 추가</button>
+          </div>
+        </div>
+        <table class="partners-table table table-borderless table-hover">
+          <thead>
+            <tr>
+              <th style="width: 20%;">제휴사명</th>
+              <th style="width: 16%;">유형</th>
+              <th style="width: 16%;">제휴사 상태</th>
+              <th style="width: 16%;">사업자 정보</th>
+              <th style="width: 16%;">연결된 계정</th>
+              <th style="width: 16%;">영업 담당자</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding-left: 1.5rem;">
+                <a class="text-link" href="/partner/286" target="_blank">
+                  엠마의 1018-1 제휴사
+                  <span>
+                    (286)
+                  </span>
+                  <i class="marketit-icon_link_text"></i>
+                </a>
+              </td>
+              <td style="text-align: center;">싱글</td>
+              <td>
+                <div style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 0.5rem; background-color: var(--gray-0); border: 1px solid var(--gray-6);">
+                </div>
+                등록
+              </td>
+              <td>
+                엠마의 1018-1 사업자
+                <br>
+                876-54-32454
+              </td>
+              <td>emma_1018_1</td>
+              <td style="padding-right: 1.5rem;">eugene</td>
+            </tr>
+            <tr>
+              <td style="padding-left: 1.5rem;">
+                <a class="text-link" href="/partner/285" target="_blank">
+                  wade 테스트1
+                  <span>
+                    (285)
+                  </span>
+                  <i class="marketit-icon_link_text"></i>
+                </a>
+              </td>
+              <td style="text-align: center;">
+                싱글
+              </td>
+              <td>
+                <div style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 0.5rem; background-color: var(--gray-0); border: 1px solid var(--gray-6);">
+                </div>
+                등록
+              </td>
+              <td>
+                주식회사 정직한
+                <br>
+                000-00-00000
+              </td>
+              <td>
+                wadetest
+              </td>
+              <td style="padding-right: 1.5rem;">
+                wade
+              </td>
+            </tr>
+         </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="account.css" />
     <title>Document</title>
   </head>
-
   <body>
     <div class="marketit-container without-whitespace">
       <h5 class="page-title">계정</h5>
@@ -53,30 +52,30 @@
                 <input
                   placeholder="이름 입력 또는 선택"
                   type="text"
-                  class="form-control"
+                  class="form-control css-placeholder"
                   value
                 />
               </div>
               <div class="col">
                 <label class="form-label">제휴사명</label>
-                <div class="d-flex">
+                <div class="d-flex col">
                   <div class="partnersNames">
                     <input
                       placeholder="전체"
                       type="text"
-                      class="form-control"
+                      class="partner-select form-control"
                       value
                     />
                     <input
                       placeholder="제휴사명 입력 또는 선택"
                       type="text"
-                      class="form-control"
+                      class="partner-autocomplete form-control"
                       value
                     />
                   </div>
                 </div>
               </div>
-              <div>
+              <div class="col">
                 <label class="form-label">제휴사 번호</label>
                 <input
                   placeholder="2개 이상 입력 시 ,로 구분"
@@ -89,81 +88,97 @@
           </div>
         </form>
         <div class="basic-btn">
-          <button type="button" class="btn btn-outline-secondary btn-outline">
+          <button type="button" class="btn btn-outline-secondary">
             초기화
           </button>
           <button type="button" class="btn btn-primary">검색</button>
         </div>
-        <ul class="mainTab nav nav-tabs">
-          <li class="nav-item">
-            <button type="button" class="nav-link disabled active">
-              승인 대기
-            </button>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="nav-link disabled active">승인</button>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="nav-link disabled active">
-              승인 거절
-            </button>
-          </li>
-        </ul>
-        <div class="tab-content">
-          <div>
-            <div class="partner-accounts-select">
-              <h6 class="page-sub-title">승인 대기 리스트(50)</h6>
-              <select class="form-select">
-                <option value="30">30</option>
-                <option value="50">50</option>
-                <option value="100">100</option>
-              </select>
-            </div>
-            <table class="table table-borderless table-hover">
-              <thead>
-                <tr>
-                  <th style="width: 23%">ID</th>
-                  <th style="width: 23%">제휴사</th>
-                  <th style="width: 23%">사업자</th>
-                  <th style="width: 15%">영업 담당자</th>
-                  <th style="width: 15%">가입 정보 확인</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="text-start">john123</td>
-                  <td class="text-start">제휴사</td>
-                  <td class="text-start">테스트</td>
-                  <td class="text-start">-</td>
-                  <td>
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary btn-outline"
-                    >
-                      가입정보확인
-                    </button>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="text-start">john123</td>
-                  <td class="text-start">제휴사</td>
-                  <td class="text-start">테스트</td>
-                  <td class="text-start">-</td>
-                  <td>
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary btn-outline"
-                    >
-                      가입정보확인
-                    </button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
       </div>
       <!-- search -->
     </div>
+    <!-- marketit-container -->
+    <div class="app-container container-xxl">
+      <div class="card-header align-items-center py-5 gap-2 gap-md-5">
+        <h6 class="page-sub-title">승인대기리스트(50)</h6>
+      </div>
+      <select class="form-select">
+        <option value="30">30</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+        <ul
+          class="nav nav-stretch nav-line-tabs fw-bold fs-6 p-0 p-lg-10 flex-nowrap flex-grow-1"
+        >
+          <li class="nav-item mx-lg-1">
+            <a
+              class="nav-link py-3 py-lg-6 active text-active-primary"
+              href="#"
+              data-bs-toggle="tab"
+              data-bs-target="#kt_app_header_menu_pages_pages"
+              >승인대기</a
+            >
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a
+              class="nav-link py-3 py-lg-6 text-active-primary"
+              href="#"
+              data-bs-toggle="tab"
+              data-bs-target="#kt_app_header_menu_pages_account"
+              >승인</a
+            >
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a
+              class="nav-link py-3 py-lg-6 text-active-primary"
+              href="#"
+              data-bs-toggle="tab"
+              data-bs-target="#kt_app_header_menu_pages_authentication"
+              >승인거절</a
+            >
+          </li>
+        </ul>
+        <!-- NAV -->
+        <div>
+        <div class="partner-accounts-select">
+
+
+      </div>
+    <div class="card-body pt-0">
+      <!--begin::Table-->
+      <table
+        class="table align-middle table-row-dashed fs-6 gy-5"
+        id="kt_ecommerce_report_sales_table"
+      >
+        <!--begin::Table head-->
+        <thead>
+          <!--begin::Table row-->
+          <tr class="text-start text-gray-400 fw-bold fs-7 text-uppercase gs-0">
+            <th class="min-w-100px">ID</th>
+            <th class="text-end min-w-75px">제휴사</th>
+            <th class="text-end min-w-75px">사업자</th>
+            <th class="text-end min-w-75px">영업 담당자</th>
+            <th class="text-end min-w-100px">가입정보확인</th>
+          </tr>
+          <!--end::Table row-->
+        </thead>
+        <!--end::Table head-->
+        <!--begin::Table body-->
+        <tbody class="fw-semibold text-gray-600">
+          <!--begin::Table row-->
+          <tr>
+            <td>john123</td>
+            <td class="text-end pe-0">제휴사</td>
+            <td class="text-end pe-0">테스트 123-45-67891</td>
+            <td class="text-end pe-0">-</td>
+            <td class="text-end">$270.00</td>
+          </tr>
+          <!--end::Table row-->
+        </tbody>
+        <!--end::Table body-->
+      </table>
+      <!--end::Table-->
+    </div>
+    <!--end::Card body-->
+  </div>
   </body>
 </html>

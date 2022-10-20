@@ -1,5 +1,5 @@
-@import "../../style/common.css";
 @import "../../style/reset.css";
+@import "../../style/common.css";
 @import "../../style/app.css";
 
 .without-whitespace {
@@ -85,6 +85,71 @@
   flex-direction: row;
 }
 
-/* .partner-autocomplete {
+.partnerNames .partner-select .css-1s2u09g-control {
+  width: 120px;
+  margin-right: 0.5rem;
+}
+
+.css-b62m3t-container {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.partner-autocomplete {
   width: 290px;
-} */
+}
+
+ul.mainTab {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+
+ul .mainTab > li {
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.partner-accounts-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.partner-accounts-select .form-select {
+  width: 80px;
+}
+
+.form-select {
+  display: block;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}

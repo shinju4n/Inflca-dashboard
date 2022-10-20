@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="campaigns.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="marketit-container">
+      <h5 class="page-title">캠페인 설정</h5>
+      <h6 class="page-sub-title">검색</h6>
+
+      <form>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >관리</label
+          >
+          <div class="basic-form col">
+            <div class="row">
+              <div class="col-6">
+                <label class="custom-form-label form-label">영업 담당자</label>
+                <div>
+                  <input class="select" placeholder="dsads" />
+                </div>
+              </div>
+              <div class="col-6">
+                <label class="custom-form-label form-label">운영 담당자</label>
+                <div>
+                  <input class="select" placeholder="dsads" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >제휴사</label
+          >
+          <div class="basic-form col">
+            <div class="row">
+              <div class="col-4">
+                <label class="custom-form-label form-label">사업자명</label>
+                <input class="select" placeholder="dsads" />
+              </div>
+              <div class="col-4">
+                <label class="custom-form-label form-label">제휴사명</label>
+                <div class="row">
+                  <div class="col-4">
+                    <input class="select" placeholder="dsads" />
+                  </div>
+                  <div class="col-8">
+                    <input class="select" placeholder="dsads" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <label class="custom-form-label form-label">캠페인명</label>
+                <input class="select" placeholder="dsads" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="basic-row row">
+          <label class="basic-label form-label col-form-label col-1"
+            >캠페인</label
+          >
+          <div class="basic-form col">
+            <div class="row">
+              <div class="col-4">
+                <label class="custom-form-label form-label">상태</label>
+                <input class="select" placeholder="dsads" />
+              </div>
+              <div class="col-4">
+                <label class="custom-form-label form-label">상태</label>
+                <input class="select" placeholder="dsads" />
+              </div>
+              <div class="col-4">
+                <label class="custom-form-label form-label">상태</label>
+                <input class="select" placeholder="dsads" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="mb-5 d-flex justify-content-center basic-btn">
+        <button type="button" class="me-2 btn btn-outline-secondary">
+          초기화</button
+        ><button type="button" class="btn btn-primary">검색</button>
+      </div>
+
+      <div
+        class="mb-3 d-flex justify-content-between align-items-end"
+        style="border-bottom: 1px solid var(--gray-3)"
+      >
+        <h6 class="page-sub-title">캠페인 리스트 (100)</h6>
+        <select class="form-select" style="width: 78px; margin-bottom: 0.75rem">
+          <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+      </div>
+
+      <div class="d-flex justify-content-end">
+        <a href="newCampagin.html">
+          <button type="button" class="btn btn-primary">새 캠페인 추가</button>
+        </a>
+      </div>
+
+      <table
+        class="mt-3 my-2 text-center campaignList-table table table-borderless table-hover"
+      >
+        <thead>
+          <tr>
+            <th style="width: 17%">캠페인명</th>
+            <th style="width: 10%">상태</th>
+            <th style="width: 10%">상품/서비스 제공 방식</th>
+            <th style="width: 10%">카테고리</th>
+            <th style="width: 8%">영업 담당자</th>
+            <th style="width: 8%">운영 담당자</th>
+            <th style="width: 15%">사업자 정보</th>
+            <th style="width: 15%">제휴사명</th>
+            <th style="width: 7%">유형</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-start">
+              <a
+                class="text-link"
+                href="/campaign/147/basicInformation"
+                target="_blank"
+                ><p style="word-break: break-all"><span>(147)</span></p>
+                <i class="marketit-icon_link_text"></i
+              ></a>
+            </td>
+            <td>
+              <div class="d-flex align-items-center">
+                <i
+                  class="marketit-icon_hourglass"
+                  style="color: var(--gray-6); font-size: 20px"
+                ></i
+                >캠페인 : 작성중
+              </div>
+            </td>
+            <td>배송</td>
+            <td></td>
+            <td>jack</td>
+            <td></td>
+            <td>
+              엠마의 1005 사업자1 <br /><span style="color: var(--gray-6)"
+                >456-46-54556</span
+              >
+            </td>
+            <td>엠마의 1005 온라인 싱글 제휴사1 <span>(180)</span></td>
+            <td class="text-center">싱글</td>
+          </tr>
+          <tr>
+            <td class="text-start">
+              <a
+                class="text-link"
+                href="/campaign/146/basicInformation"
+                target="_blank"
+                ><p style="word-break: break-all">
+                  벤티프레소(146) <span>(146)</span>
+                </p>
+                <i class="marketit-icon_link_text"></i
+              ></a>
+            </td>
+            <td>
+              <div class="d-flex align-items-center">
+                <div
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    margin-right: 0.5rem;
+                    background-color: rgb(43, 168, 72);
+                  "
+                ></div>
+                캠페인 : 모집중
+              </div>
+            </td>
+            <td>방문<span> (오프라인 결제)</span></td>
+            <td>카페/디저트/베이커리</td>
+            <td>wade</td>
+            <td></td>
+            <td>
+              주식회사 정직한 <br /><span style="color: var(--gray-6)"
+                >000-00-00000</span
+              >
+            </td>
+            <td>wade 테스트1 <span>(285)</span></td>
+            <td class="text-center">싱글</td>
+          </tr>
+          <tr>
+            <td class="text-start">
+              <a
+                class="text-link"
+                href="/campaign/143/basicInformation"
+                target="_blank"
+                ><p style="word-break: break-all">dd(143) <span>(143)</span></p>
+                <i class="marketit-icon_link_text"></i
+              ></a>
+            </td>
+            <td>
+              <div class="d-flex align-items-center">
+                <div
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    margin-right: 0.5rem;
+                    background-color: var(--caution);
+                  "
+                ></div>
+                캠페인 : 모집 종료 예정
+              </div>
+            </td>
+            <td>방문<span> (온라인 결제)</span></td>
+            <td>맛집</td>
+            <td>gina</td>
+            <td></td>
+            <td>
+              emma0929 <br /><span style="color: var(--gray-6)"
+                >457-98-61265</span
+              >
+            </td>
+            <td>emma0929 <span>(134)</span></td>
+            <td class="text-center">싱글</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
